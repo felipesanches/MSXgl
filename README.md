@@ -1,12 +1,12 @@
 <img width="100%" src="https://raw.githubusercontent.com/aoineko-fr/MSXgl/main/engine/doc/img/logo/msxgl-tate-logo.png" title="MSXgl" />
 
-**MSXgl is a Game Library wrote in C and targeting MSX computers.**
+**MSXgl is a Game Library written in C and targeting MSX computers.**
 
 The purpose of this library is to provide C programmers with the **whole set of functionalities to make a game** with high performance.
-Even though a C program can never be as efficient as a program written entirely in assembler, the goal is to try to get as close as possible.
+Even though a C program can never be as efficient as a program written entirely in assembly, the goal is to try to get as close as possible.
 
-To achieve this goal, the **library is dynamically compiled** to allow the user to configure the functionalities to best suit his needs.
-Also, the most expensive features are written in assembler.
+To achieve this goal, the **library is dynamically compiled** to allow users to configure the functionalities to best suit their needs.
+Also, the most expensive features are written in assembly.
 
 The other goal was to create a library that is **totally independent of the BIOS**. This makes it much easier to use the 16K of page 0.
 The library also provides interrupt handling code to create ROMs that always remain on page 0.
